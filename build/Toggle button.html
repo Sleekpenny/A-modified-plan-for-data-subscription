@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Toggle</title>
+    <link rel="stylesheet" href="/build/css/style.css">
+</head>
+
+<body class="min-h-screen bg-white-200">
+
+    <header class="bg-gray-500   sticky top-0 z-10 p-3">
+        <section class="flex justify-between text-gray-200 max-w-6xl mx-auto">
+
+        <div class=" sm:flex space-x-2 font-bold font1 mr-4 hidden ">
+          <h2><a href="#" class="hover:text-gray-900">Home</a></h2>
+          <p><a href="#" class="hover:text-gray-900">Toggle Button</a></p>
+          
+        </div>
+
+        <div class="flex justify-center items-center mx-auto">
+            <a href="#"><img src="/build/images/pngwing.com (1).png" alt="Subs"  width="70" height="70" class=" sm:hidden"></a>
+        </div>
+
+        <div class="sm:flex space-x-2 font-bold font1 hidden">
+            <h2> <a  class="hover:text-gray-900" href="#">Select Items</h2></a> 
+            <p><a class="hover:text-gray-900 relative" href="#">Buy</a></p>
+            <p> <a class="hover:text-gray-900" href="#">View Items</a></p>
+
+        </div>
+    </section>
+    </header>
+
+    <section class="flex justify-between w-full text-gray-200 max-w-6xl mx-auto">
+        
+
+        <div class="flex flex-col sm:flex-row w-full sm:gap-4
+         justify-center items-center">
+            <!-- to the right  -->
+            <div class="font1 w-1/2 mt-20  text-gray-800">
+                <img src="/build/images/pngwing.com (3).png" alt="Wrong" width="50" height="50" class="mb-2">
+                <div class="flex  justify-between">
+                    <p>Change Plan </p>
+                    <p class="font">Cancel your Plan</p>
+                </div> 
+                <hr class="bg-black">
+                
+                <div class="font1 font-bold flex mt-4 justify-between  w-2/5"  >
+                    <input type="radio" name="Plan" id="ping" >
+                    <p>Hobby - 1GB ($5/mol)</p>
+                </div>
+                
+                <div class="font1 font-bold flex mt-1 justify-between w-2/5" >
+                    <input type="radio" name="Plan" id="ping" focus>
+                    <p>Growth - 1GB ($10/mol)</p>
+                </div>
+                
+                <div class="font1 font-bold flex mt-1 justify-between  w-2/5" >
+                    <input type="radio" name="Plan" id="ping" >
+                    <p>Busines - 10GB ($15/mol)</p>
+                </div>
+                
+                <div class="font1 font-bold flex mt-1 justify-between  w-2/5" >
+                    <input type="radio" name="Plan" id="ping" >
+                    <p>Enterprise - 20GB ($20/mol)</p>
+                </div>
+            </div>
+
+            <!-- to the left  -->
+            <div class="font1  sm:ml-16   w-1/2 mt-20 border-solid text-gray-800">
+                <img src="/build/images/pngwing.com (2).png" alt="Wrong" width="50" height="50">
+               
+                <div class="flex  justify-between">
+                    <p>Change Plan </p>
+                    <p class="font">Cancel your Plan</p>
+                </div>
+                <hr>
+
+                <div class="flex gap-4">
+                    <div class="bg-white hover:border-solid hover:border-2 hover:border-green-400 hover:bg-emerald-50 shadow p-4 rounded mt-4 w-1/5 sm:w-1/6">
+                        <p class=" font1 font-bold">Hobby</p>
+                        <P class=" text-xs font-bold"> <span class="text-2xl font-corbel font-bold">1</span>  GB</P>
+                        <p> <span class="font-bold">$5</span>/mo</p>
+                    </div>
+
+                    <div class="bg-white hover:border-solid hover:border-2 hover:border-green-400 hover:bg-emerald-50 shadow p-4 rounded mt-4 w-1/5 sm:w-1/6">
+                        <p class=" font1 font-bold">Growth</p>
+                        <P class=" text-xs font-bold"> <span class="text-2xl font-corbel font-bold">5</span>  GB</P>
+                        <p> <span class="font-bold">$10</span>/mo</p>
+                    </div>
+
+                    <div class="bg-white hover:border-solid hover:border-2 hover:border-green-400 hover:bg-emerald-50 shadow p-4 rounded mt-4 w-1/5 sm:w-1/6">
+                        <p class=" font1 relative font-bold">Business
+                            <img src="/build/images/pngwing.com (2).png" alt="good" width="10" height="10" class="absolute top-0 right-14">
+                        </p>
+                        <P class=" text-xs font-bold"> <span class="text-2xl font-corbel font-bold">10</span>  GB</P>
+                        <p> <span class="font-bold">$15</span>/mo</p>
+                    </div>
+
+                    <div class="bg-white hover:border-solid hover:border-2 hover:border-green-400 hover:bg-emerald-50 shadow p-4 rounded mt-4 w-1/5 sm:w-1/6">
+                        <p class=" font1 font-bold relative ">Enterprise 
+                            <img src="/build/images/pngwing.com (2).png" alt="good" width="10" height="10" class="absolute top-0 right-14">
+                        </p>
+                        <P class=" text-xs font-bold"> <span class="text-2xl font-corbel font-bold">20</span>  GB</P>
+                        <p> <span class="font-bold">$20</span>/mo</p>
+                    </div>
+                </div>
+            </div> 
+        
+    </div>
+    </section>
+    
+</body>
+</html>

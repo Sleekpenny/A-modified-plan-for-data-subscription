@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font1{
+    font-size: 1.8vh;
+    font-family: corbel;
+}
+
+.font{
+    font-size: 1.4vh;
+    font-weight: bold;
+}
